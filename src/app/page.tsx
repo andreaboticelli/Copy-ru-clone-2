@@ -1,6 +1,10 @@
 import { Header } from "@/components/Header";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { LocationSection } from "@/components/LocationSection";
+import { WhatWeDoSection } from "@/components/WhatWeDoSection";
+import { WhyItWorksSection } from "@/components/WhyItWorksSection";
+import { ServicesListSection } from "@/components/ServicesListSection";
+import { HowToStartSection } from "@/components/HowToStartSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ReviewsSection } from "@/components/ReviewsSection";
 import { Footer } from "@/components/Footer";
@@ -18,6 +22,10 @@ export default function Home() {
       <main>
         <Breadcrumb items={breadcrumbItems} />
         <LocationSection />
+        <WhatWeDoSection />
+        <WhyItWorksSection />
+        <ServicesListSection />
+        <HowToStartSection />
         <ServicesSection />
         <ReviewsSection />
       </main>
